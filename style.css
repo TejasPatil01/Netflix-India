@@ -430,7 +430,13 @@ footer>div:nth-child(2)>ul {
         width: 120px;
         padding: 10px;
     }
-
+    .navitems:nth-child(2)>:nth-child(1)
+    {
+        width: 35px;
+        top:12px;
+        left:37px;
+    }
+  
     nav {
         width: 100vw;
     }
