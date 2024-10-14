@@ -420,8 +420,15 @@ footer>div:nth-child(2)>ul {
     font-size: 16px;
     letter-spacing: 0.50px;
 }
+.pad {
+    padding: 0 10px;
+    text-align: center;
+}
 
 @media screen and (max-width:660px) {
+    *{
+        overflow-x: hidden;
+    }
     .container {
         height: 93vh;
     }
@@ -498,11 +505,7 @@ footer>div:nth-child(2)>ul {
         padding: 15px 0px;
     }
 
-    .pad {
-        padding: 0 10px;
-        text-align: center;
-    }
-
+   
     .grid_wrap>div:nth-child(2),
     .watch:first-child {
         width: auto;
@@ -580,5 +583,23 @@ footer>div:nth-child(2)>ul {
 
     .copyright {
         color: var(--red);
+        transform: translateX(-10px);
+    }
+    @media only screen and (max-width:420px) {
+        .navitems:nth-child(2)>:nth-child(2){
+            padding: 5px 11px;
+        }   
+        .navitems:nth-child(2)>:nth-child(3){
+            margin: 0;
+        }
+        .navitems:nth-child(2)>:nth-child(1){
+            display: none;
+        }
+        .subcription>button{
+            width: 280px;
+        }
+        footer>div:first-child>button{
+            padding: 0;
+        }
     }
 }
