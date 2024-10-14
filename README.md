@@ -2,6 +2,10 @@
 
 This is a **Netflix India clone** created using **HTML**, **CSS**, and **JavaScript**. The project replicates the core user interface and basic functionality of the Netflix India platform.
 
+## Live Demo
+
+You can view the live version of this project here: [Netflix India Clone Live](https://tejaspatil01.github.io/Netflix-India/)
+
 ## Features
 
 - **Responsive UI**: A fully responsive design that works seamlessly on desktop, tablet, and mobile devices.
